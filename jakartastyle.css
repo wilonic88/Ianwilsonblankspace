@@ -1,0 +1,20 @@
+ 
+/*The first rule centers largest heading, creates a border, adjusts the border's color, creates padding, and centers text */
+ h1 {width: 50%; 
+     margin:auto; 
+     border:3px solid rgb(193, 118, 118); 
+     text-align: center;
+     padding: 5%;} 
+
+/*The second rule targets the classe(s) .eat-drink and .visit. The text is indented on both selectors. */
+     .eat-drink, .visit{text-indent: 10%;} 
+/*The third rule changes the class .visit and it's elements to a new color */
+     .visit {color: #a7c7c9ff; } 
+/*The fourth rule selects list item #3 in the restaruants class and changes its color */
+     .restaurants li:nth-child(3)
+      {text-transform: uppercase; color:rgb(67, 140, 145);} 
+/* The fifth rule follows the LOve HAte rules around links. It changes the signifiers around a clicked link on a web page in proper order */
+a:link{color:orange} 
+a:visited{color:orchid} 
+a:hover{color:mediumslateblue} 
+a:active{color: blanchedalmond;}

@@ -1,0 +1,19 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;  
+    color: #526264;
+    text-transform: uppercase;
+} 
+/* I hope this is the correct way to write CSS> */ 
+
+h2 {background-color:#95b8b8;  
+    font-family: Papyrus, "Brush Script MT", Monaco; 
+} 
+p   { text-align: left;   
+    color:#4F6364; 
+    background-color: #BEDBDC;    
+    font-weight: normal; 
+    } 
+    /* I hope I did this the right way :/ */ 
+   
